@@ -27,9 +27,7 @@ section {
 /*=================== VARIABLES ==================== */
 :root {
     --header-height: 2.5rem;
-    /* colors */
-    --hue: 159;
-    /* HSB color mode */
+    /*  color mode */
     --base-color: #03e9f4;
     --base-color-second: #9904D9;
     --base-color-alt: #ffffff;
@@ -67,8 +65,6 @@ body {
     -webkit-font-smoothing: auto;
     margin-top: 2rem;
 }
-
-
 
 /*~~~~~~ Button Portfolio ~~~~~~*/
 
@@ -438,8 +434,6 @@ nav.show .fa-xmark {
     margin-top: 4rem;
 }
 
-
-
 /*=================== ABOUT =================== */
 
 #about img {
@@ -447,8 +441,6 @@ nav.show .fa-xmark {
     height: 400px;
     clip-path: circle();
 }
-
-
 
 #about .container {
     margin: 0;
@@ -477,7 +469,6 @@ nav.show .fa-xmark {
 #about .text span {
     color: var(--base-color-second);
 }
-
 
 /*=================== Skills =================== */
 
@@ -595,13 +586,10 @@ margin-bottom: auto;
     width: 10rem;
 }
 
-
-
-
-
 blockquote img {
     border-radius: 1rem;
 }
+
 #portfolio .swiper-wrapper {
 margin-top: -5rem;
     margin-bottom: -2rem;
@@ -890,9 +878,6 @@ footer .social a:hover {
 
     }
        
-
-
-
     /* Skills */
     
     #skills h2 .title {
