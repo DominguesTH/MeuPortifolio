@@ -19,7 +19,7 @@ img {
 }
 
 
-  
+
 section {
     margin-bottom: 2.5rem;
 }
@@ -31,7 +31,7 @@ section {
     --base-color: #03e9f4;
     --base-color-second: #9904D9;
     --base-color-alt: #ffffff;
-    --title-color:#03e9f4;
+    --title-color: #03e9f4;
     --text-color: #ffffff;
     --text-color-light: #5086F2;
     --body-color: #9904d9;
@@ -58,6 +58,18 @@ body {
     background-color: #0D141F;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
 
 .title {
     font: 600 1.775rem var(--title-font);
@@ -74,9 +86,9 @@ body {
     text-align: -webkit-center;
     margin-bottom: 2rem;
     margin-top: 3rem;
-  }
-  
-  .portfolio div a {
+}
+
+.portfolio div a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -87,44 +99,44 @@ body {
     overflow: hidden;
     transition: .5s;
     letter-spacing: 4px;
-  }
-  
-  .portfolio a:hover {
+}
+
+.portfolio a:hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 5px #03e9f4,
-      0 0 25px #03e9f4,
-      0 0 50px #03e9f4,
-      0 0 80px #03e9f4;
-  }
-  
-  .portfolio a span {
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 80px #03e9f4;
+}
+
+.portfolio a span {
     position: absolute;
     display: block;
-  }
-  
-  .portfolio a span:nth-child(1) {
+}
+
+.portfolio a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(90deg, transparent, #03e9f4);
     animation: btn-anim1 1s linear infinite;
-  }
-  
-  @keyframes btn-anim1 {
+}
+
+@keyframes btn-anim1 {
     0% {
-      left: -100%;
+        left: -100%;
     }
-  
+
     50%,
     100% {
-      left: 100%;
+        left: 100%;
     }
-  }
-  
-  .portfolio a span:nth-child(2) {
+}
+
+.portfolio a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -132,20 +144,20 @@ body {
     background: linear-gradient(180deg, transparent, #03e9f4);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
-  }
-  
-  @keyframes btn-anim2 {
+}
+
+@keyframes btn-anim2 {
     0% {
-      top: -100%;
+        top: -100%;
     }
-  
+
     50%,
     100% {
-      top: 100%;
+        top: 100%;
     }
-  }
-  
-  .portfolio a span:nth-child(3) {
+}
+
+.portfolio a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -153,21 +165,21 @@ body {
     background: linear-gradient(270deg, transparent, #03e9f4);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
-  }
-  
-  @keyframes btn-anim3 {
+}
+
+@keyframes btn-anim3 {
     0% {
-      right: -100%;
+        right: -100%;
     }
-  
+
     50%,
     100% {
-      right: 100%;
+        right: 100%;
     }
-  }
-  
-  
-  .portfolio a span:nth-child(4) {
+}
+
+
+.portfolio a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -175,21 +187,21 @@ body {
     background: linear-gradient(360deg, transparent, #03e9f4);
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
-  }
-  
-  
-  @keyframes btn-anim4 {
+}
+
+
+@keyframes btn-anim4 {
     0% {
-      bottom: -100%;
+        bottom: -100%;
     }
-  
+
     50%,
     100% {
-      bottom: 100%;
+        bottom: 100%;
     }
-  }
-  
-  /* ~~~~~~// finish Button~~~~~~ */
+}
+
+/* ~~~~~~// finish Button~~~~~~ */
 
 
 .divider-1 {
@@ -274,7 +286,7 @@ body {
 
 /*=================== Scroll =================== */
 #header.scroll {
-    background:var(--base-color-second);
+    background: var(--base-color-second);
     box-shadow: 0px 0px 8px #3564f2;
 }
 
@@ -498,19 +510,20 @@ nav.show .fa-xmark {
 .card .title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color:var(--base-color-second);
+    color: var(--base-color-second);
 }
 
 .hard-skills .card i {
     display: block;
     font-size: 2rem;
-margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 .hard-skills div.card {
     display: grid;
     gap: 2rem;
 }
+
 /*=================== Portfolio =================== */
 
 
@@ -528,7 +541,7 @@ margin-bottom: auto;
     width: auto;
     height: 480px;
 
- 
+
 }
 
 #portfolio blockquote p {
@@ -559,7 +572,7 @@ margin-bottom: auto;
     margin-bottom: 1rem;
     font: 500 1.3rem 'Reem Kufi Fun', sans-serif;
     color: var(--base-color);
-    
+
 }
 
 #portfolio cite img {
@@ -591,7 +604,7 @@ blockquote img {
 }
 
 #portfolio .swiper-wrapper {
-margin-top: -5rem;
+    margin-top: -5rem;
     margin-bottom: -2rem;
 }
 
@@ -601,7 +614,7 @@ margin-top: -5rem;
     padding: 2rem 2.2rem;
 }
 
-span.swiper-pagination-bullet { 
+span.swiper-pagination-bullet {
     background-color: var(--base-color-alt);
 }
 
@@ -646,8 +659,8 @@ span.swiper-pagination-bullet-active {
 
 
 #contact .button:hover {
-  background-color: #03e8f491;
-  box-shadow: 0 0 10px ;
+    background-color: #03e8f491;
+    box-shadow: 0 0 10px;
 }
 
 #contact ul li i,
@@ -683,7 +696,7 @@ span.swiper-pagination-bullet-active {
 
 /*=================== FOOTER =================== */
 footer {
-    background:var(--base-color-second);
+    background: var(--base-color-second);
 }
 
 
@@ -756,11 +769,11 @@ footer .social a:hover {
 
 
     .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    }   
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
 
 
     .section header {
@@ -782,32 +795,32 @@ footer .social a:hover {
         position: relative;
         color: var(--basic-color);
     }
-    
+
     #header nav.show ul li a {
         color: var(--base-color-alt);
     }
 
-       
+
     #header nav.show ul li a.active {
         color: var(--base-color);
-      
+
     }
 
-    
+
     #header nav.show ul li a.active::after {
         width: 100%;
-        background-color:var(--base-color);
+        background-color: var(--base-color);
     }
 
 
     #header nav ul li a.active::after {
         width: 100%;
-        background-color:var(--base-color-alt);
+        background-color: var(--base-color-alt);
     }
 
     #header .title.active {
-        color:var(--base-color-alt);
- 
+        color: var(--base-color-alt);
+
     }
 
     /* Navagation */
@@ -828,28 +841,28 @@ footer .social a:hover {
     }
 
     #header.scroll .title.active {
-       color:var(--base-color);
+        color: var(--base-color);
 
     }
 
     #header nav ul li a.active {
         font-weight: bold;
-        color:var(--basic-color);
+        color: var(--basic-color);
     }
 
 
     #header.scroll nav ul li a.active::after {
-      width: 100%;
-      background-color:var(--base-color);
+        width: 100%;
+        background-color: var(--base-color);
     }
 
 
     nav .menu ul li a.title {
         font: 400 1rem var(--body-font);
         -webkit-font-smoothing: antialiased;
-   
+
     }
-    
+
     nav.show .menu ul li a.title {
         font: 400 2.5rem var(--body-font);
 
@@ -877,15 +890,15 @@ footer .social a:hover {
         margin-top: 1rem;
 
     }
-       
+
     /* Skills */
-    
+
     #skills h2 .title {
         text-align: justify;
     }
 
-    #skills .soft-skills{
-        grid-template-columns: 1fr 1fr ;
+    #skills .soft-skills {
+        grid-template-columns: 1fr 1fr;
     }
 
 
@@ -893,7 +906,7 @@ footer .social a:hover {
         margin-left: 2rem;
         margin-right: 2rem;
         margin-bottom: 0rem;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
 
     /* Portfolio*/
@@ -922,7 +935,7 @@ footer .social a:hover {
         margin-top: 0;
         margin-bottom: 0;
     }
-    
+
 }
 
 /* large devices: +992  */
@@ -951,12 +964,12 @@ footer .social a:hover {
         margin-right: auto;
     }
 
-    
+
     nav .fa-align-justify {
         display: none;
     }
 
- 
+
     /* home */
     #home .container {
         grid-auto-flow: column;
@@ -1014,15 +1027,15 @@ footer .social a:hover {
         grid-template-columns: 1.5fr 1.5fr 1.5fr;
     }
 
-    #skills .soft-skills{
-        grid-template-columns: 1fr 1fr 1fr ;
+    #skills .soft-skills {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #skills .hard-skills {
         margin-left: 8rem;
         margin-right: 8rem;
         margin-bottom: 0rem;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
 
     .card {
@@ -1047,14 +1060,14 @@ footer .social a:hover {
         margin-right: auto;
     }
 
-    #portfolio .swiper-button-next,   
+    #portfolio .swiper-button-next,
     #portfolio .swiper-button-prev {
         visibility: visible;
         top: 60%;
     }
 
-    .swiper-button-prev:after, 
-    .swiper-button-next:after{
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
         color: var(--base-color)
     }
 
@@ -1112,8 +1125,8 @@ footer .social a:hover {
     }
 
     #header.scroll nav ul li a.active::after {
-      width: 100%;
-      background-color:var(--base-color);
+        width: 100%;
+        background-color: var(--base-color);
     }
 
     /* Navagation */
@@ -1222,21 +1235,21 @@ footer .social a:hover {
         margin: 0 auto;
     }
 
- 
+
     #portfolio .swiper-button-prev {
         visibility: visible;
         top: 60%;
     }
 
-    
-    
+
+
     #portfolio .swiper-button-next {
         visibility: visible;
         top: 60%;
     }
 
-    
-  
+
+
 
     /* contact */
 
@@ -1271,6 +1284,3 @@ footer .social a:hover {
     }
 
 }
-
-
-
